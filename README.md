@@ -23,37 +23,72 @@ On the dashboard page there should be a button that says "logout" in the top rig
 
 You will have 72 hours from the time you recieve this email to complete as much of this excercise as possible. Please respond to this email with your progress. Your folder should include a requirements.txt for the python packages you use and package.json for the javascript packages you use. We do not expect you to complete the entire task. The goal is to see what you can come up with with 4-5 hours of work. You will be assesed based on the quality, and clairity of the code, code comments, commit comments, and app functionality.
 
-# Important information before run de project
+# Project Setup Guide
 
-  - Python Version
-    Python 3.11.6
+## Important Information Before Running the Project
 
-  - React version
-    React 18.0.0
+- **Python Version:**
+  - Python 3.11.6
 
-# How to run the project
+- **React Version:**
+  - React 18.0.0
 
-## 1.- run the backend
+---
 
-  1. Move to the backend folder
-      $ cd backend
-  2. Activate the virtual enviroment
-      $ . .venv/bin/activate
-  3. Install requirements
-      $ pip install -r requirements
-  4. Load two users to the Database
-      $ python database_setup.py
-  5. Run flask
-      $ flask run
+## How to Run the Project
 
-## 2.- Run the frontend
-  1. Move to the frontend folder
-      $ cd frontend
-  3. Run React
-      3.1. Install dependencies
-            $ npm install
-      3.2. Run the project
-            $ npm start
+### 1. Run the Backend
 
-## Aditional information
-  - To give quick style to the pages I used mui material modules (https://mui.com/). 
+1. Navigate to the backend folder:
+   ```bash
+   cd backend
+   ```
+
+2. Activate the virtual environment:
+   ```bash
+   source .venv/bin/activate
+   ```
+
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Load sample users into the database:
+   ```bash
+   python database_setup.py
+   ```
+
+5. Start the Flask server:
+   ```bash
+   flask run
+   ```
+
+### 2. Run the Frontend
+
+1. Navigate to the frontend folder:
+   ```bash
+   cd frontend
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the React application:
+   ```bash
+   npm start
+   ```
+
+---
+
+## Additional Information
+
+- **Styling Library:**
+  - The project uses [Material-UI (MUI)](https://mui.com/) for quick styling of the pages.
+
+---
+
+**Happy coding!** 🚀
+
