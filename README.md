@@ -90,5 +90,47 @@ You will have 72 hours from the time you recieve this email to complete as much 
 
 ---
 
+## Brief Summary
+
+### How the Project Works
+
+1. **Login Process:** Use the predefined credentials (created via `database_setup.js`) to log in.
+2. **Data Visualization:** Upon login, you will see two plots based on your user role.
+3. **Attribute Selection:** Filter the data displayed on the plots by selecting or deselecting attributes using checkboxes.
+4. **Interactive Slider:** Adjust the side slider to modify the X or Y axis according to your needs.
+
+### Prioritized Tasks
+
+1. **Login and Logout Process:**
+   - Essential for displaying role-specific data.
+
+2. **Dashboard Visualization:**
+   - The primary requirement; users need to visualize their data in plots to make informed decisions.
+
+3. **Checkboxes:**
+   - Important for filtering specific data to enhance plot clarity.
+
+4. **Side Slider:**
+   - A lower priority feature; while useful for axis adjustments, the core data visualization remains effective without it.
+
+### Future implementations
+
+- **Enhanced User Role Management:**
+  - Support for more complex user roles and permissions.
+
+- **Advanced Data Filtering Options:**
+  - Allow users to apply more intricate filters to refine their data views.
+
+- **Export Functionalities:**
+  - Enable exporting data and plots in various formats (CSV, PDF, etc.).
+
+- **Real-Time Data Updates:**
+  - Automatically refresh data visualizations based on real-time changes.
+  
+- **Users CRUD**
+   - It is importante than the administrator of the system can create, updated and delete users.
+
+---
+
 **Happy coding!** 🚀
 
