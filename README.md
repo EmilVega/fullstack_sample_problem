@@ -54,3 +54,6 @@ You will have 72 hours from the time you recieve this email to complete as much 
             $ npm install
       3.2. Run the project
             $ npm start
+
+## Aditional information
+  - To give quick style to the pages I used mui material modules (https://mui.com/). 

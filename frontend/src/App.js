@@ -23,7 +23,7 @@ function App() {
         headers: {
           'Content-Type': 'application/json',
         },
-        credentials: 'include', // Include cookies if needed
+        credentials: 'include', // Include cookies if needed (I pretend to use this in order to keep the session)
       });
 
       if (response.ok) {

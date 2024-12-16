@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+// Using predetermined styles from mui (https://mui.com/) helps to create a login page easily
 import { TextField, Button, Container, Typography, Box, CircularProgress, Alert } from '@mui/material';
 
 function SignIn({ onLoginSuccess }) {

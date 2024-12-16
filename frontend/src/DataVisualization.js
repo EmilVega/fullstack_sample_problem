@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+// Import the necessary components from recharts. It helps to create the plots easily
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Label } from 'recharts';
 import Slider from '@mui/material/Slider';
 import Checkbox from '@mui/material/Checkbox';
@@ -24,7 +25,7 @@ const DataVisualization = ({ role }) => {
           headers: {
             'Content-Type': 'application/json',
           },
-          body: JSON.stringify({ role }),
+          body: JSON.stringify({ role }), // I needed to share the role because the session was not working because the CORS in the backend
         });
 
         if (!response.ok) {
